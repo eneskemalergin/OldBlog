@@ -1,10 +1,13 @@
 ---
 layout: post
 title: Machine Learning - Lesson 2
-tags:
-- Machine Learning
-- Python 
-published: true
+modified:
+categories: blog
+excerpt:
+tags: ["Machine Learning", "Python"]
+image:
+  feature:
+date: 2015-04-28
 ---
 
 ## Content of Naive Bayes
@@ -24,7 +27,8 @@ Naive Bayses learners and classifiers can be extremely fast compared to more sop
 
 #### Example Usage
 
-```Python
+~~~python
+
 # Calling numpy as np
 import numpy as np
 # Creating a point data X, Y
@@ -39,7 +43,8 @@ clf.fit(X, Y)
 
 # Gives the prediction of given array.
 print(clf.predict([[-0.8, -1]]))
-```
+~~~
+
 #### Methods
 
 - fit(X,y): fits the GaussianNB according to X and y
